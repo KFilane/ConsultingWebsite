@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    }
+    body {
+      color: #080808;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    
+    }
+    
+    .logo{
+ 
+        width: 30%;
+        height: 40%;
+        float: right;
+    }
+    .navbar a {
+        font-size: 18px;
+        color:#000407;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+    }
+    .navbar a:hover,
+    .navbar a.active{
+        color:#000000;
+    }
+    .home{
+        display: flex;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+        background-image: url(back.jpg);
+        align-items: center;
+        padding: 0 20%;
+      }
+      .home-content{
+        max-width: 600px;
+        
+    }
+     
+    
+    .home-content h1{
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    .contact-form-container {
+        max-width: 400px;
+        margin: 60px auto;
+        background-color: hsl(143, 84%, 43%);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /*about us*/
+    .about-us{
+        position:absolute;
+        bottom: 60px;
+        left: 40%;
+    }
+    .about h1{
+       color: #fff;
+    }
+    
+    #about-us {
+        background-color: #28aabb;
+        padding: 10px;
+        border-radius: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+       
+      #about-us h1 {
+        color: #1422a5;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+        font-size: 30px;
+      }
+      
+      #about-us p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+      }
+    
+      .about-us{
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        display: inline-block;
+      }
+      
+      .img {
+        font-size: 36px;
+        margin-bottom: 10px;
+        color: #3498db;
+      }
+      
+      h3 {
+        color: #333;
+      }
+    
+      p {
+        font-size: 16px;
+      }
+      
+      
+    
+    /*form*/
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    label {
+        margin-top: 10px;
+        color: #555;
+    }
+    
+    input, textarea {
+        width: 20%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 3px solid #110df1;
+        border-radius: 6px;
+    }
+    
+    button {
+        background-color: #1533dd;
+        color: #181818;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+
+    /*footer*/
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: rgb(245, 56, 56);
+        padding: 20px;
+    }
+    
+    .footer-info,
+    .footer-social {
+        flex: 1; /* Take up equal space */
+    }
+    
+    .footer-info h3,
+    .footer-social h3 {
+        margin-bottom: 10px;
+    }
+    
+    .social-icons {
+        display: flex;
+    }
+    
+    .social-icon {
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .social-icon:hover {
+        color: #4CAF50;
+    }
+    
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
