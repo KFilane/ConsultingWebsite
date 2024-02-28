@@ -226,7 +226,7 @@
       
      
     
-    .footer-info,
+    .footer-info ,
     .footer-social {
         flex: 1; /* Take up equal space */
     }
@@ -234,6 +234,7 @@
     .footer-info h3,
     .footer-social h3 {
         margin-bottom: 10px;
+        color: white;
     }
     
     .social-icons {
